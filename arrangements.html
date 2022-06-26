@@ -3,6 +3,7 @@
 	<head>
 		<title>Arrangements</title>
 		<link rel="stylesheet" href="styleSheetMain.css">
+		<script type="text/javascript" src="java/searchFunction.js"></script>
 		<link rel="icon" type="image/x-icon" href="media/favicon.JPG">
 	</head>
 	<body>
@@ -21,37 +22,14 @@
 			<a href="commissions.html">Commissions</a>
 			<a href="about.html">About</a>
 		</div>
-			<h1>Arrangements</h1>
-			<table style="margin-left:auto;margin-right:auto;">
-				<thead>
-					<tr>
-						<th>Piece Arranged</th>
-						<th>Original Composer</th>
-						<th>Arranged for</th>
-						<th>Year of Arrangement</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><a href="swanLake.html" class="weblink">Swan Lake Suite</a></td>
-						<td>P. Tchaikovsky</td>
-						<td>Oboe and Piano</td>
-						<td>2021</td>
-					</tr>
-					<tr>
-						<td><a href="goyescasIntermezzo.html" class="weblink">Intermezzo from Goyescas</a></td>
-						<td>Enrique Grenados</td>
-						<td>Oboe and Piano</td>
-						<td>2022</td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-				</tbody>
-			</table>
+		<h1>Arrangements</h1>
+		<p style="text-align:center"> Pieces written by other composers that Noah JohnKarl Thompson arranged for different instruments.</p>
+		<input type="text" id="arrangementsSearch" onkeyup="searchFunction()" placeholder="Search composer, title, or instruments..." title="Type in a category">
+
+		<ul class = "arrangementsMenu" id="arrangementsMenu">
+			<li><a href="arrangements/swanLake.html">Swan Lake Suite, for oboe and piano, P. Tchaikovsky</a></li>
+		</ul>
+		<br>
 	</body>
 	<div class="footer">
 			<p><a style="text-decoration:none;color:#FFFFFF;" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">All Content and Music Under CC BY-SA 4.0</a></p>

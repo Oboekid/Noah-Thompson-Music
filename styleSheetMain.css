@@ -181,3 +181,27 @@ td:hover {
 #compositionsMenu li a:hover {
 	background-color: #eee;
 }
+/*arrangements search bar*/
+/* Style the search box */
+#arrangementsSearch {
+	width: 100%;
+	font-size: 18px;
+	padding: 11px;
+	border: 1px solid #ddd;
+}
+/* Style the navigation menu */
+#arrangementsMenu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+/* Style the navigation links */
+#arrangementsMenu li a {
+	padding: 12px;
+	text-decoration: none;
+	color: black;
+	display: block
+}
+#arrangementsMenu li a:hover {
+	background-color: #eee;
+}
