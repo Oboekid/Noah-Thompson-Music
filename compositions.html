@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Compositions</title>
+		<script type="text/javascript" src="java.js"></script>
 		<link rel="stylesheet" href="styleSheetMain.css">
 		<link rel="icon" type="image/x-icon" href="media/favicon.JPG">
 	</head>
@@ -22,63 +23,17 @@
 			<a href="about.html">About</a>
 		</div>
 		<h1 style="text-align:center">Compositions</h1>
-		<table style="margin-left:auto;margin-right:auto;">
-			<thead>
-				<tr>
-					<th colspan="4">Works Before Graduation of Highschool (Opuses 1 - current)</th>
-				</tr>
-				<tr>
-					<th>Title</th>
-					<th>Number/Opus</th>
-					<th>Instrumentation</th>
-					<th>Year</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><a href="compositions/op6.html" class="weblink">l'Étude de Colibri</a></td>
-					<td>Op. 6</td>
-					<td>Flute, Piano</td>
-					<td>2022</td>
-				</tr>
-				<tr>
-					<td><a href="compositions/op5.html" class="weblink">Concerto for Violin and Orchestra</a></td>
-					<td>No. 1, Op. 5</td>
-					<td>Violin, Orchestra</td>
-					<td>2022</td>
-				</tr>
-				<tr>
-					<td><a href="compositions/op5a.html" class="weblink">Variations on an Original Theme</a></td>
-					<td>Op. 5a</td>
-					<td>Piano</td>
-					<td>2021</td>
-				</tr>
-				<tr>
-					<td><a href="compositions/op4.html" class="weblink">Serenade in C Major</a></td>
-					<td>No. 2, Op. 4</td>
-					<td>2 Violins</td>
-					<td>2021</td>
-				</tr>
-				<tr>
-					<td><a href="compositions/op3.html" class="weblink">Carnival Waltz</a></td>
-					<td>Op. 3</td>
-					<td>Orchestra</td>
-					<td>2021</td>
-				</tr>
-				<tr>
-					<td><a href="compositions/op2.html" class="weblink">Flight of the Bubble Tea</a></td>
-					<td>Op. 2</td>
-					<td>Violin</td>
-					<td>2021</td>
-				</tr>
-				<tr>
-					<td><a href="compositions/op1.html" class="weblink">Serenade in A Minor</a></td>
-					<td>No. 1, Op. 1</td>
-					<td>2 Flutes, Oboe</td>
-					<td>2021</td>
-				</tr>
-			</tbody>
-		</table>
+		<input type="text" id="compositionsSearch" onkeyup="compositionsFunction()" placeholder="Search opus, number, or title..." title="Type in a category">
+
+<ul class = "compositionsMenu" id="compositionsMenu">
+  <li><a href="compositions/op6.html">l'Étude de Colibri, Op. 6</a></li>
+  <li><a href="compositions/op5.html">Concerto for Violin and Orchestra, No. 1, Op. 5</a></li>
+  <li><a href="compositions/op5a.html">Variations on an Original Theme, Op. 5a</a></li>
+  <li><a href="compositions/op4.html">Serenade in C Major, No. 2, Op. 4</a></li>
+  <li><a href="compositions/op3.html">Carnival Waltz, Op. 3</a></li>
+  <li><a href="compositions/op2.html">Flight of the Bubble Tea, Op. 2</a></li>
+  <li><a href="compositions/op1.html">Serenade in A Minor, No. 1, Op. 1</a></li>
+</ul>
 	</body>
 	<div class="footer">
 			<p><a style="text-decoration:none;color:#FFFFFF;" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">All Content and Music Under CC BY-SA 4.0</a></p>
