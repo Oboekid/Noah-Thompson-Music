@@ -1,55 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/</loc>
+		<loc>noahjkthompson.com/</loc>
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/compositions.html</loc>
+		<loc>noahjkthompson.com/compositions.html</loc>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/compositions/op5a.html</loc>
+		<loc>noahjkthompson.com/collections.html</loc>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>noahjkthompson.com/compositions/op5a.html</loc>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/arrangements.html</loc>
+		<loc>noahjkthompson.com/arrangements.html</loc>
 		<priority>0.7</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/compositions/op3.html</loc>
+		<loc>noahjkthompson.com/compositions/op3.html</loc>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/index.html</loc>
+		<loc>noahjkthompson.com/index.html</loc>
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/about.html</loc>
+		<loc>noahjkthompson.com/about.html</loc>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/compositions/op5.html</loc>
+		<loc>noahjkthompson.com/compositions/op5.html</loc>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/events.html</loc>
+		<loc>noahjkthompson.com/events.html</loc>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/commissions.html</loc>
+		<loc>noahjkthompson.com/commissions.html</loc>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/compositions/op1.html</loc>
+		<loc>noahjkthompson.com/compositions/op1.html</loc>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/compositions/op2.html</loc>
+		<loc>noahjkthompson.com/compositions/op2.html</loc>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://oboekid.github.io/noahjkthompsonmusic/compositions/op4.html</loc>
+		<loc>noahjkthompson.com/compositions/op4.html</loc>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>noahjkthompson.com/compositions/op6.html</loc>
 		<priority>0.5</priority>
 	</url>
 </urlset>
