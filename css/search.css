@@ -1,0 +1,24 @@
+/*works search bar*/
+/* Style the search box */
+#worksSearch {
+	width: 100%;
+	font-size: 18px;
+	padding: 11px;
+	border: 1px solid #ddd;
+}
+/* Style the navigation menu */
+#worksMenu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+/* Style the navigation links */
+#worksMenu li a {
+	padding: 12px;
+	text-decoration: none;
+	color: black;
+	display: block
+}
+#worksMenu li a:hover {
+	background-color: #eee;
+}
